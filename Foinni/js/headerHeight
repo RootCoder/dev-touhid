@@ -1,0 +1,8 @@
+headerHeight 
+var contentHeight = $('.text-area').height()
+var windowHeight = window.innerHeight;
+
+var sliderPadding = (windowHeight - headerHeight - contentHeight)
+
+
+

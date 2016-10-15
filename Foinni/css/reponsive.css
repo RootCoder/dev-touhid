@@ -1,0 +1,168 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+	ul.nav.navbar-nav li a {
+	  color: #2c5d63 !important;
+	  font-family: "Montserrat";
+	  font-size: 14px;
+	  padding: 26px 8px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+		
+
+
+
+.nav.navbar-nav.hidden-menu > li {
+  width: 100%;
+}
+
+form.search-box {
+  left: -200px!important;
+  position: absolute;
+  top: 22px;
+  z-index: 9999;
+}
+
+.project_overlay p{
+	font-size: 12px;
+	padding:18px 6px 0; 
+}
+
+.package-label p{
+	font-size: 10px;
+	line-height: 3.92em;
+}
+.overlay-read-more a{
+	font-size: 12px;
+	padding: 8px 6px; 
+}
+.single_overlay_package p{
+    font-size: 12px;
+    line-height: 1.92em;
+}
+
+section.counter-area{
+	margin-top: 60px;
+}
+
+.footer-menu ul li a{
+	padding: 6px;
+}
+
+		
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	
+	.header-feature-content h1{
+		padding-top: 60%;
+	}
+
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	
+	header.header-feature::before{
+		width: 100%;
+	}
+	form.search-box {
+		  left: 70px !important;
+		  position: absolute;
+		  top: 18px;
+		  z-index: 9999;
+		}
+	.project_image img{
+		width: 100%;
+	}
+	.project_area_heading h1, .chose-us-heading h1, .packages_heading h1, .technology-heading h1, .testimonial-heading h1, .blog-heading h1, .contact-us-heading h1{
+		font-size: 42px;
+	}
+	.package-label p {
+	  font-size: 16px;
+	  line-height: 2.3em;
+	}
+
+	.single-package-item {
+	  margin-bottom: 145px;
+	}
+
+	.text-center.packages_heading {
+	  margin-bottom: 60px;
+	}
+	.single_overlay_package p {
+	  font-size: 14px;
+	  line-height: 1.92em;
+	}
+	.overlay-read-more a {
+	  font-size: 16px;
+	  padding: 10px 15px;
+	}
+	.testimonial-image img{
+		width: 25% !important;
+	}
+	.blog-effect > img{
+		height: 170px;
+	}
+	.first-overlay-more > h1 {
+	  font-size: 32px;
+	}
+	.first-overlay-more > h2 {
+	  font-size: 22px;
+	}
+	.first-overlay-content-two > p {
+	  font-size: 12px;
+	  line-height: 1em;
+	}
+	.first-overlay-content-two a{
+		font-size: 12px;
+		padding: 8px;
+	}
+	.blog-overlay > h1{
+		font-size: 32px;
+	}
+	.blog-overlay > h2{
+		font-size: 16px;
+	}
+	.single-blog-effect p{
+		font-size: 14px;
+		line-height: 1em;
+	}
+	.single-blog-effect a{
+		padding: 8px;
+	}
+	.blog-overlay p{
+		margin-top: 0;
+	}
+	.single-blog-item{
+		margin-bottom: 25px;
+	}
+	.contact-us-area{
+		height: 62%;
+	}
+	.map-display{
+		height: 38%;
+	}
+	.footer-left-widget {
+	  margin-bottom: 40px;
+	  text-align: center;
+	}
+	.footer-right-widget {
+	  margin-top: 40px;
+	  text-align: center;
+	}
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+
+    	.project_area_heading h1, .chose-us-heading h1, .packages_heading h1, .technology-heading h1, .testimonial-heading h1, .blog-heading h1, .contact-us-heading h1{
+		font-size: 36px;
+	}
+}

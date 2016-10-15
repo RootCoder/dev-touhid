@@ -1,0 +1,773 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+body {
+    margin: 5px auto;
+}	
+.header_left ul li a {
+    display: inline-block;
+    padding: 15px 5px;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header_left ul li i.fa {
+    padding-left: 8px;
+}
+
+.header_right ul li a {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    text-decoration: none;
+    padding: 15px 12px;
+}
+
+.brand h2{
+	font-size: 24px;
+}
+.brand img {
+    margin-top: -3px;
+    width: 40px;
+    height: auto;
+}
+.main_menu ul li a{
+	padding: 0 6px;
+}
+
+.main_menu{
+	padding-left: 40px;
+}
+
+.search {
+    float: left;
+    margin-top: 6px;
+    padding-left: 25px;
+}
+
+.text_area h2{
+	font-size: 40px;
+}
+
+.text_area p{
+	font-size: 14px;
+	width: 620px;
+}
+.text_area a{
+	padding: 10px 16px;
+}
+
+.about_us_heading h1, .courses_heading h1, .gellery_heading h1, .teachers_area_heading h1, .campus_area_heading h1, .news_area_headline h1{
+	font-size: 53px;
+}
+.about_us_icon a{
+	padding: 14px 32px;
+}
+
+
+.course_images img {
+    width: 100%;
+    height: 200px;
+}
+.single_course_text {
+    margin: 10px 20px;
+}
+
+.single_course_text h2{
+	font-size: 18px;
+}
+.single_course_text p{
+	font-size: 14px;
+}
+.button a.price{
+	font-size: 18px;
+    width: 120px;
+    height: 42px;
+}
+.button a.details{
+	font-size: 18px;
+    width: 120px;
+    height: 42px;
+}
+.teachers_area_heading h1{
+	margin-top: 115px;
+}
+.single_teacher_area{
+	width: 232px;
+    height: auto;
+    margin-top: 90px;
+    margin-bottom: 115px;
+}
+.teacher_socials a{
+	font-size: 20px;
+	padding: 8px 12px;
+}
+
+.single_campus_sponser img{
+	width: 220px;
+    height: 130px;
+}
+.sponser_overlay{
+    width: 220px;
+    height: 130px;
+    top: -130px;
+}
+.sponser_overlay::before{
+	top: 0;
+    left: 110px;
+}
+.sponser_overlay::after{
+	    top: 67px;
+}
+.campus_area_heading h1{
+	margin-top: 115px;
+}
+.campus_sponser{
+	margin-bottom: 110px;
+}
+.single_accordian_content h4{
+	font-size: 17px;
+}
+.single_accordian_content p{
+	font-size: 13px;
+}
+.single_accordian_img img{
+	width: 75px;
+    height: 75px;
+}
+.blog_image{
+	width: 300px;
+}
+.blog_content{
+	width: 305px;
+}
+.widget_social_icon ul li a{
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+}
+.responsive_menu{
+    display: none;
+}
+
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+
+.text_area{
+	padding-top: 22%;
+	padding-left: 22%;
+}
+
+.single_about_us {
+  float: left;
+  margin-top: 40px;
+  width: 50%;
+}
+
+.course_images img {
+  height: auto;
+  width: 100%;
+}
+.single_course_text h2{
+	font-size: 22px;
+}
+.about_us_heading h1::after {
+  top: 140%;
+}
+.single_course_text p{
+	font-size: 16px;
+}
+.rating{
+	font-size: 22px;
+}
+
+.button a.price{
+	width: 136px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 22px;
+}
+.button a.details{
+	width: 136px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 22px;
+}
+.height {
+  padding-bottom: 80px;
+}
+
+.filter_item .mix{
+	width: 50%;
+}
+.overlay ul{
+	padding: 120px 0;
+}
+.filter_control ul.nav_filter{
+	margin: 0 0 0 18%;
+}
+.video_area {
+  min-height: 600px;
+}
+.video_frame img {
+  right: 10px;
+  top: 247px;
+}
+a.hvr-pulse.html5lightbox {
+  color: #ffffff;
+  font-size: 175px;
+  left: 42%;
+  position: absolute;
+  top: 68%;
+}
+.single_teacher_area{
+	width: 50%;
+	margin-bottom: 0;
+}
+.teacher_hover {
+    margin-top: -228px;
+    padding: 45px 0;
+}
+.teacher_socials a{
+	padding: 10px 15px;
+  	font-size: 30px;
+  	line-height: 0.8;
+}
+.single_campus_sponser {
+    float: left;
+    width: 45%;
+    text-align: center;
+    margin: 0 18px;
+}
+
+.single_campus_sponser img {
+    height: 100%;
+    width: 100%;
+}
+.sponser_overlay {
+  height: 200px;
+  top: -200px;
+  width: 100%;
+}
+.sponser_overlay::before {
+  left: 160px;
+  top: 0;
+}
+.sponser_overlay::after {
+  top: 100px;
+}
+.single_accordian_img img {
+  height: 120px;
+  margin: 10px 45px;
+  width: 120px;
+}
+.single_accordian_content {
+  margin: 12px 0;
+}
+.single_accordian_content h4 {
+    font-size: 20px;
+}
+section.news_area {
+  margin-bottom: 100px;
+}
+.single_accordian_content p {
+    font-size: 16px;
+    margin: 5px 26px 0 0;
+}
+
+.blog_image {
+    width: 95%;
+}
+
+.responsive_menu{
+    display: none;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	form.learning_search{
+		right: 0;
+		top: 196px;
+	}
+
+
+	.search {
+	    float: right;
+	    margin-top: 6px;
+	    margin-right: 70px;
+	}
+	.responsive_menu{
+    	display: none;
+	}
+	
+	.learning_search{
+		right: 12px;
+    	top: 142px;
+	}
+	.text_area {
+	    padding-left: 15%;
+	    padding-top: 25%;
+	}
+
+	.single_details {
+	    width: 50%!important;
+	    margin: 0!important;
+	    padding: 0;
+	    
+	}
+	.single_about_us {
+	    float: left;
+	    margin-top: 46px;
+	    width: 100%;
+	    padding: 0 26px;
+	}
+
+
+
+	
+	.video_area {
+	  min-height: 630px;
+	}
+
+	.video_frame img {
+	  right: 2px;
+	  top: 226px;
+	}
+	
+	.courses_details {
+	    width: 100%;
+	}
+	.single_course_text h2 {
+	    font-size: 46px;
+	}
+	.single_course_text p {
+	    font-size: 32px;
+	}
+	.rating {
+	    font-size: 52px;
+	}
+	.button a.price {
+	    width: 200px;
+	    height: 62px;
+	    line-height: 62px;
+	    font-size: 32px;
+	}
+	.button a.details {
+	    width: 200px;
+	    height: 62px;
+	    line-height: 62px;
+	    font-size: 32px;
+	}
+	a.hvr-pulse.html5lightbox {
+	    color: #ffffff;
+	    font-size: 145px;
+	    left: 42%;
+	    position: absolute;
+	    top: 74%;
+	}
+	.filter_item {
+	    min-height: 1100px;
+	}
+	.campus_sponser{
+		    margin-bottom: 0px;
+	}
+	.single_teacher_img {
+	    width: 90%;
+	    margin: 0 20px;
+	}
+	.the-sponser {
+	    width: 100%;
+	}
+	.single_campus_sponser {
+	    float: left;
+	    width: 95%;
+	    text-align: center;
+	    margin: 0 18px;
+	}
+	.the-accordian {
+	    width: 100%;
+	}
+	.the-blog {
+	    width: 100%;
+	}
+	.main_menu{
+		display: none;
+	}
+	
+	.responsive_menu{
+   		display: block;
+   		float: right;
+	}
+	.responsive_item{
+		display: block;
+	}
+	.responsive_menu > a {
+	  background: #e34e15 none repeat scroll 0 0;
+	  color: #ffffff;
+	  display: inline-block;
+	  font-size: 16px;
+	  padding: 4px 12px;
+	}
+	.responsive_menu {
+	    margin-top: -24px;
+	}
+
+	
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	
+	.main_menu{
+		display: none;
+	}
+	
+	.responsive_menu{
+   		display: block;
+   		float: right;
+   		margin-top: -34px;
+	}
+	.responsive_item{
+		display: block;
+	}
+	.responsive_menu > a {
+	  background: #e34e15 none repeat scroll 0 0;
+	  color: #ffffff;
+	  display: inline-block;
+	  font-size: 16px;
+	  padding: 4px 12px;
+	}
+	.header_right {
+    display: none;
+	}
+	.search {
+	    float: left;
+	    margin-top: 0;
+	    padding-left: 152px;
+	}
+
+	.search li{
+		font-size: 26px;
+	}
+	form.learning_search{
+		    right: 1px;
+    		top: 150px;
+	}
+	.text_area h2 {
+	    font-size: 27px;
+	    width: 312px;
+	}
+	.text_area p {
+	  	font-size: 13px;
+	    width: 308px;
+	    margin-top: 16px;
+	}
+	.text_area a {
+	    padding: 8px 10px;
+	    font-size: 14px;
+	    margin-top: 16px;
+	    margin-left: 6px;
+	}
+	.owl-prev .fa {
+	  font-size: 45px;
+	  top: 50%;
+	  width: 40px;
+	}
+	.owl-next .fa {
+	  font-size: 45px;
+	  top: 50%;
+	  width: 45px;
+	}
+	.single_details {
+	    width: 100%!important;
+	}
+	.single_about_us {
+	  float: left;
+	  margin-top: 40px;
+	  width: 100%;
+	}
+	.about_us_heading h1, .courses_heading h1, .gellery_heading h1, .teachers_area_heading h1, .campus_area_heading h1, .news_area_headline h1 {
+	  font-size: 35px;
+	  margin-bottom: 40px;
+	  margin-top: 70px;
+	}
+	.about_us_heading h1::before, .gellery_heading h1::before, .teachers_area_heading h1::before, .campus_area_heading h1::before, .news_area_headline h1::before {
+		  	left: 38%;
+		    top: 130%;
+		    width: 88px;
+		}
+	.about_us_heading h1::after, .gellery_heading h1::after, .teachers_area_heading h1::after, .campus_area_heading h1::after, .news_area_headline h1::after  {
+		    left: 43.5%;
+		    top: 130%;
+		    width: 40px;
+		}
+
+	
+	.courses_heading h1::before{
+		left: 38%;
+	    top: 170%;
+	    width: 88px;
+	}
+	.courses_heading h1::after{
+		left: 43.5%;
+	    top: 170%;
+	    width: 40px;
+	}
+	.single_latest_course {
+	    margin: 50px 0px;
+	    text-align: center;
+	}
+	.course_images img {
+	  height: auto;
+	  width: 100%;
+	}
+	.single_course_text h2 {
+	  font-size: 18px;
+	}
+	.single_course_text p {
+	  font-size: 14px;
+	}
+	.student_rating {
+	  overflow: hidden;
+	  padding: 14px 0;
+	}
+	.rating {
+	  font-size: 16px;
+	}
+	.button a.price {
+	  font-size: 16px;
+	  height: 40px;
+	  line-height: 40px;
+	  width: 120px;
+	}
+	.button a.details {
+	  font-size: 18px;
+	  height: 40px;
+	  line-height: 40px;
+	  width: 120px;
+	}
+	.filter_control {
+	  margin-top: 60px;
+	}
+	.filter_control ul li {
+	  display: block;
+	  margin: 2% -11%;
+	  width: 100%;
+	}
+	.filter_control ul li:last-child {
+	  margin-bottom: 36px;
+	}
+	.filter_item .mix {
+	  width: 100%;
+	}
+	.video_area {
+	    min-height: 322px;
+	}
+	.video_frame img {
+	    right: 0;
+	    top: 109px;
+	}
+	a.hvr-pulse.html5lightbox {
+	    color: #ffffff;
+	    font-size: 85px;
+	    left: 40%;
+	    position: absolute;
+	    top: 70%;
+	}
+	.single_teacher_area {
+	  margin: 20px 42px;
+	  width: 80%;
+	}
+	.teacher_hover {
+	  margin-top: -181px;
+	  padding: 25px 0;
+	}
+	
+	.single_campus_sponser {
+	    text-align: center;
+	    width: 100%;
+	    margin: 0;
+	    margin-bottom: -100px;
+
+	}
+	.single_accordian_img img {
+	    height: 100px;
+	    margin: 5px 8px;
+	    width: 100px;
+	}
+	.single_accordian_content h4, .single_accordian_content p{
+		min-height: 0 6px;
+	}
+	.owl-pagination {
+	    position: absolute;
+	    top: -10%;
+	    left: 62%;
+	}
+	footer.footer_area p{
+		font-size: 14px;
+	}
+	
+}
+
+/* Custom, Galaxi S5 */
+
+@media only screen and (max-width : 362px){
+	.search {
+	    float: left;
+	    margin-top: -30px;
+	    padding-left: 236px;
+	}
+	.responsive_menu {
+	    display: block;
+	    float: right;
+	    margin-top: -34px;
+	}
+	form.learning_search {
+	    right: 1px;
+	    top: 147px;
+	}
+	.video_frame img {
+	    right: 0;
+	    top: 139px;
+	}
+	a.hvr-pulse.html5lightbox {
+	    color: #ffffff;
+	    font-size: 85px;
+	    left: 40%;
+	    position: absolute;
+	    top: 88%;
+	}
+	.single_teacher_area {
+	        margin: 0;
+    		width: 100%;
+    		overflow: hidden;
+    		margin-top: 50px;
+	}
+	.single_teacher_img {
+	    width: 100%;
+	    margin: 0;
+	}
+	.sponser_overlay {
+	    height: 216px;
+	    top: -218px;
+	    width: 100%;
+	}
+	.sponser_overlay::after {
+	    top: 112px;
+	}
+	.single_accordian_content h4 {
+	    margin-left: 24px;
+	}
+	.single_accordian_content p {
+	    margin-left: 28px;
+	}
+	.owl-pagination {
+	    position: absolute;
+	    top: -10%;
+	    left: 60%;
+	}
+	.owl-theme .owl-controls .owl-page span {
+	    background-color: #E34B11;
+	    border: 1px solid #E34B11;
+	    width: 14px;
+	    height: 14px;
+	}
+	footer.footer_area p {
+	    font-size: 18px;
+	}
+
+}
+
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    .responsive_menu {
+	    display: block;
+	    float: right;
+	    margin-top: -34px;
+	}
+	.search {
+	    float: left;
+	    margin-top: -30px;
+	    padding-left: 200px;
+	}
+	form.learning_search {
+	    right: 1px;
+	    top: 147px!important;
+	}
+	.text_area h2 {
+	    font-size: 22px;
+	    width: 260px;
+	}
+	.text_area p {
+	    font-size: 13px;
+	    width: 260px;
+	    margin-top: 10px;
+	}
+
+	.overlay ul {
+	    padding: 90px 0;
+	}
+	.about_us_heading h1, .courses_heading h1, .gellery_heading h1, .teachers_area_heading h1, .campus_area_heading h1, .news_area_headline h1{
+		font-size: 32px;
+	}
+	.video_frame img {
+	    right: 0;
+	    top: 163px;
+	}
+	a.hvr-pulse.html5lightbox {
+	    color: #ffffff;
+	    font-size: 62px;
+	    left: 42%;
+	    position: absolute;
+	    top: 118%;
+	}
+	.single_teacher_area {
+	    width: 100%;
+	    margin: 40px 0;
+	}
+
+	.single_accordian_img img {
+	    height: 75px;
+	    margin: 5px 8px;
+	    width: 75px;
+	}
+	.single_accordian_content h4 {
+	    font-size: 20px;
+	    margin: 0 6px;
+	}
+	.single_accordian_content p{
+		margin: 0 6px;
+	}
+	.owl-pagination {
+	    position: absolute;
+	    top: -10%;
+	    left: 55%;
+	}
+	.owl-theme .owl-controls .owl-page span {
+	    background-color: #E34B11;
+	    border: 1px solid #E34B11;
+	    width: 16px;
+	    height: 16px;
+	}
+
+
+
+
+
+
+}
+
+

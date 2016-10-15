@@ -1,0 +1,207 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body{
+	background: #EBEBEB;
+	margin: 15px auto;
+}
+
+.payment-img {
+    display: inline-block;
+    height: 55px;
+    width: 60px;
+}
+
+
+.page-title {
+    margin: 0 10%;
+    margin-top: 45px;
+    padding-bottom: 170px;
+}
+span.process-system p {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+span.process-num {
+    border: 2px solid #2E3E4B;
+    display: inline-block;
+    padding: 11px 18px;
+    border-radius: 50px;
+    position: relative;
+    transition: all 300ms linear;
+}
+span.h-line p::before {
+    position: absolute;
+    left: 23.5%;
+    top: 27%;
+    content: " ";
+    width: 20.7%;
+    height: auto;
+    border-bottom: 4px solid #2E3E4B;
+}
+span.h-line p::after {
+    position: absolute;
+    left: 47.5%;
+    top: 27%;
+    content: " ";
+    width: 20.7%;
+    height: auto;
+    border-bottom: 4px solid #2E3E4B;
+}
+span.h-line > p > span.process-num {
+    background: #20A5A4;
+    border-color: #20A5A4;
+    color: #FFFFFF;
+}
+
+span.process-system > p > span.process-num:hover{
+	background: #20A5A4;
+    border-color: #20A5A4;
+    color: #FFFFFF;
+    box-shadow: 0 0 10px #2D3D4A;
+}
+
+
+.payment-method {
+    border: 2px solid #606165;
+    background: #FFFFFF;
+}
+.contact-addr {
+    border: 2px solid #2D3D4A;
+    margin-top: 18px;
+    background: #FFFFFF;
+}
+
+.payment-content, .delivery-addr {
+    margin: 0 26px;
+    margin-bottom: 6%;
+}
+
+
+input#card {
+    width: 210px;
+    border: 1px solid #D7D7D7;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+input#month, input#year, input#cvv {
+    width: 90px;
+    border: 1px solid #D7D7D7;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+.payment-option-title {
+    text-align: left;
+    background: #DADADA;
+    margin: 0 -26px;
+    padding: 4px 0;
+    padding-left: 26px;
+}
+
+.payment-option-title h2 {
+    Font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 26px;
+}
+.single-payment {
+    margin-top: 2%;
+    border-bottom: 1px solid #DADADA;
+}
+.pay-form {
+    margin-bottom: 20px;
+}
+
+.deliver-title {
+    margin: 0 -26px;
+    background: #DADADA;
+    padding: 6px 0;
+}
+.deliver-title h2 {
+    padding-left: 26px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 26px;
+}
+
+
+
+.delivery-addr a {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #4F5B67;
+    background: #4F5B67;
+    color: #FFFFFF;
+    padding: 10px 16px;
+    border-radius: 3px;
+    margin-top: 25px;
+}
+.pad {
+    width: 33%;
+    float: left;
+}
+.cart-summary-area {
+    border: 2px solid #606165;
+}
+.cart-title {
+    background: #DADADA;
+}
+
+.cart-title {
+    background: #DADADA;
+    padding: 6px 0;
+}
+.cart-title h2 {
+    font-size: 26px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    padding-left: 16px;
+}
+
+
+.item-list {
+    padding-left: 4px;
+}
+table.table > tbody > tr:last-child{
+    font-weight: bold;
+}
+
+.button.text-center {
+    width: 100%;
+    background: #1CA39D;
+    padding: 25px 0;
+    margin-top: -15px;
+}
+.button a {
+    font-family: "Open Sans";
+    color: #FFFFFF;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+}
+.payment-logo {
+    margin-top: 85%;
+    text-align: right;
+    margin-right: 5%;
+    margin-bottom: 15%;
+}
+button.btn.pay-form-btn {
+    background: none;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
